@@ -80,7 +80,7 @@ export OPENAI_API_KEY=your_openai_api_key_here
 python main.py
 ```
 
-## 📖 Usage
+## Usage
 
 1. Run the script: `python main.py`
 2. Enter a Reddit profile URL when prompted:
@@ -93,7 +93,7 @@ python main.py
    - Generate a detailed persona
    - Save results to `{username}_persona.txt`
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 reddit-persona-analyzer/
@@ -105,25 +105,12 @@ reddit-persona-analyzer/
 └── Hungry-Move-6603_persona.txt  # Sample output 2
 ```
 
-## 🔧 Configuration Options
+## Configuration Options
 
 You can modify these parameters in `main.py`:
 
 - `limit` in `scrape_user_data()`: Number of posts/comments to analyze (default: 100)
 - OpenAI model: Change `gpt-3.5-turbo` to `gpt-4` for better analysis (costs more)
 - Analysis depth: Modify the prompt in `analyze_with_openai()` for different insights
-
-
-
-## 📊 Sample Outputs
-
-The script generates detailed personas including:
-
-- **Interests and Hobbies**: Based on subreddit participation and post content
-- **Communication Style**: Tone, formality, emoji usage
-- **Estimated Demographics**: Age group, profession, location hints
-- **Political Views**: If evident from posts
-- **Personality Traits**: Introversion/extroversion, humor style, etc.
-- **Citations**: Specific posts/comments supporting each conclusion
 
 
