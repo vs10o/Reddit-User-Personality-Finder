@@ -2,7 +2,7 @@
 
 A Python script that analyzes Reddit user profiles to create detailed personality personas using AI-powered content analysis.
 
-## 🎯 Features
+## Features
 
 - **Web Scraping**: Uses PRAW (Python Reddit API Wrapper) to efficiently scrape user posts and comments
 - **AI Analysis**: Leverages OpenAI's GPT models for intelligent personality analysis
@@ -10,7 +10,7 @@ A Python script that analyzes Reddit user profiles to create detailed personalit
 - **Citation System**: Links specific posts/comments to personality traits
 - **Export Functionality**: Saves detailed personas as text files
 
-## 📋 Requirements
+## Requirements
 
 ### API Keys Required
 
@@ -28,7 +28,7 @@ A Python script that analyzes Reddit user profiles to create detailed personalit
 ### Python Version
 - Python 3.7 or higher
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### Step 1: Clone/Download the Project
 ```bash
@@ -169,7 +169,7 @@ This project is for educational purposes. Ensure compliance with:
 - OpenAI Usage Policies  
 - Local privacy laws
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to improve this project by:
 - Adding more sophisticated analysis rules
@@ -177,7 +177,7 @@ Feel free to improve this project by:
 - Enhancing the output format
 - Adding data visualization features
 
-## 📞 Support
+##  Support
 
 If you encounter issues:
 1. Check the troubleshooting section
